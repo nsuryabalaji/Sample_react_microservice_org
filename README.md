@@ -38,12 +38,18 @@ Create Dockerfiles for Web app and Auth app -- containerize these node js apps
     3. create two docker-compose files at the root directory 
        - one for dev and production 
        - both files should build docker images using the dockerfiles (dev and prod) and run services when invoked accordingly.
-        1. dev docker compose should expose both web app and auth api app in localhost 8080 and 8081 respectively and connect auth api to mysql internally.
-        2. production docker-compose should expose only web app and auth api should connect to web app using docker network and connect auth api to mysql internally. auth api should not be accessible in localhost.
+        1. dev docker compose should expose both web app 
+           - auth api app in localhost 8080 and 8081 respectively 
+           - connect auth api to mysql internally.
+        2. production docker-compose should expose only web app 
+           - auth api should connect to web app using docker network
+           - connect auth api to mysql internally
+           - auth api should not be accessible in localhost.
     4. Both in dev and prod docker compose 
        - after starting mysql through the docker compose, initialize mysql database using inittables.sql
     5. write a script ( choose any scripting language of your choice) that builds the dockerfiles for both dev and production images.
-    6. Host your local jenkins server or use CircleCI Cloud with your github account. run the script created at step 5 in Jenkins or CircleCI.  
+    6. Host your local jenkins server or use CircleCI Cloud with your github account. 
+       run the script created at step 5 in Jenkins or CircleCI.  
 
 **Make changes to source code as needed to change port numbers of the applications and connectivity to database.
 Add files as need for completing the above Part 1 and push to your own Public Github repo. Attach(commit) reports or output of jenkins/circleCI in your repo.
