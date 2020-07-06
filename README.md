@@ -44,7 +44,7 @@ Create Dockerfiles for Web app and Auth app -- containerize these node js apps
 Add files as need for completing the above Part 1 and push to your own Public Github repo. Attach(commit) reports or output of jenkins/circleCI in your repo.
 We are looking for best pratices in source control management and docker, dockerfiles.**
 
-Part 2:
+Part 2 (Optional but expected when discussed for further rounds):
 
 Use Nginx as reverse proxy for both web app and auth api service.
 Commit your Nginx conf file with the needed configuration when running in a docker container.
