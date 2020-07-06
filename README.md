@@ -1,5 +1,9 @@
 # REACT_NODE_MICROSERVICES_DOCKER
 
+https://github.com/DIYDevOps/Sample_react_microservice
+
+Clone the above repo
+
 Prerequisites:
 
 1. Node 10.21.0
