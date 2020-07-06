@@ -40,8 +40,9 @@ Create Dockerfiles for Web app and Auth app -- containerize these node js apps
     5. write a script ( choose any scripting language of your choice) that builds the dockerfiles for both dev and production images.
     6. Host your local jenkins server or use CircleCI Cloud with your github account. run the script created at step 5 in Jenkins or CircleCI.  
 
-Add files as need for completing the above Part 1 and push to your Github repo. Attach(commit) reports or output of jenkins/circleCI in your repo.
-We are looking for best pratices in source control management and docker, dockerfiles.
+**Make changes to source code as needed to change port numbers of the applications and connectivity to database.
+Add files as need for completing the above Part 1 and push to your own Public Github repo. Attach(commit) reports or output of jenkins/circleCI in your repo.
+We are looking for best pratices in source control management and docker, dockerfiles.**
 
 Part 2:
 
